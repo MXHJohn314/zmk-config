@@ -21,15 +21,15 @@
 // │    `    |     A      |     S     |     D    |     F     |      G    |    NA     │ │   NA     │     H    |       J     |      K     |      L     |     ;     |    '     │
 // │    [    |     Z      |     X     |     C    |     V     |      B    |    NA     │ │   NA     │     N    |       M     |      ,     |      .     |     /     |    ]     │
 // ╰─────────────────────────────────╮         LSHIFT        | BACKSPACE |    TAB    | |   ENTER  │   SPACE  |       RSHIFT            ╭────────────────────────────────────╯
-                                     ╰───────────╮    LWIN   |   LCTRL   |   LALT    | |   RALT   |    RCTRL |     RWIN    ╭───────────╯
-                                                 ╰───────────────────────────────────╯ ╰───────────────────────────────────╯    
-                        bindings = <  
+//                                   ╰───────────╮    LWIN   |   LCTRL   |   LALT    | |   RALT   |    RCTRL |     RWIN    ╭───────────╯
+//                                               ╰───────────────────────────────────╯ ╰───────────────────────────────────╯
+                        bindings = <
    &none       &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10     &kp F11    &kp F12    &none
    &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                                  &kp N6      &kp N7      &kp N8      &kp N9     &kp N0     &kp DEL
    &kp MINUS   &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6          &kp F7      &kp F8      &kp F9      &kp F10     &kp F11    &kp F12    &kp EQUAL
    &kp GRAVE   &kp HOME    &kp PG_UP   &kp PG_DN   &kp END     &kp G       &kp CAPS        &kp BSLH    &kp H       &kp LEFT    &kp UP      &kp DOWN   &kp RIGHT  &kp SQT
    &kp LBKT    &kp Z       &kp X       &kp C       &kp V       &kp B                       &kp N       &kp M       &kp CMMA    &kp DOT     &kp FSLH   &kp RBKT
-               &none                   &kp LSHFT               &kp BSPC    &lt 1 TAB       &lt 1 RET   &kp SPC     &kp RSHFT               &none            
+               &none                   &kp LSHFT               &kp BSPC    &lt 1 TAB       &lt 1 RET   &kp SPC     &kp RSHFT               &none
    &none       &none       &none                   &kp LGUI    &kp LCTRL   &kp LALT        &kp RALT    &kp RCTRL   &kp RGUI    &none       &none       &none
                         >;
             		sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -43,8 +43,8 @@
 // │    NA   |     A      |     S     |     D    |     F     |      G    |    NA     │ │   NA     │     H    |       J     |      K     |      L     |     ;     |    NA    │
 // │    NA   |     Z      |     X     |     C    |     V     |      B    |    NA     │ │   NA     │     N    |       M     |      ,     |      .     |     /     |    NA    │
 // ╰─────────────────────────────────╮         LSHIFT        | BACKSPACE |    TAB    | |   ENTER  │   SPACE  |       RSHIFT            ╭────────────────────────────────────╯
-                                     ╰───────────╮    LWIN   |   LCTRL   |   LALT    | |   RALT   |    RCTRL |     RWIN    ╭───────────╯                                     
-                                                 ╰───────────────────────────────────╯ ╰───────────────────────────────────╯                                                 
+//                                   ╰───────────╮    LWIN   |   LCTRL   |   LALT    | |   RALT   |    RCTRL |     RWIN    ╭───────────╯
+//                                               ╰───────────────────────────────────╯ ╰───────────────────────────────────╯
                         bindings = <
    &none       &none       &none       &none       &none       &none       &none             &none       &none       &none       &none       &none       &none       &none
    &none       &none       &none       &none       &none       &none                         &none       &none       &none       &none       &none       &none
